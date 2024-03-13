@@ -36,7 +36,7 @@ Code to replicate analyses performed in [Finlay, Ireland et al. 2024]
 
 1. Download data from NCBI GEO
 2. See Jupyter Notebooks and R scripts above for manuscript specific dataset integration methods and analyses.
-3. Please refer to [Scanpy](https://scanpy.readthedocs.io/en/stable/), [scvi-tools](https://docs.scvi-tools.org/en/stable/tutorials/index.html), [Otscomics](https://github.com/cantinilab/OT-scOmics), [Circos](https://github.com/saeyslab/nichenetr/blob/master/vignettes/seurat_wrapper_circos.md), [GeomxTools](https://bioconductor.org/packages/devel/workflows/vignettes/GeoMxWorkflows/inst/doc/GeomxTools_RNA-NGS_Analysis.html), and CountCorrect[https://github.com/BayraktarLab/CountCorrect] tutorials for package-specific code that was adapted for datasets in this manuscript. 
+3. Please refer to [Scanpy](https://scanpy.readthedocs.io/en/stable/), [scvi-tools](https://docs.scvi-tools.org/en/stable/tutorials/index.html), [Otscomics](https://github.com/cantinilab/OT-scOmics), [Circos](https://github.com/saeyslab/nichenetr/blob/master/vignettes/seurat_wrapper_circos.md), [GeomxTools](https://bioconductor.org/packages/devel/workflows/vignettes/GeoMxWorkflows/inst/doc/GeomxTools_RNA-NGS_Analysis.html), and [CountCorrect](https://github.com/BayraktarLab/CountCorrect) tutorials for package-specific code that was adapted for datasets in this manuscript. 
 
 # Contact
 Please consult methods described in our manuscript for more details or contact corresponding author for specific requests.
