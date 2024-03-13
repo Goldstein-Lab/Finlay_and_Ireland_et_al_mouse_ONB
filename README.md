@@ -1,4 +1,4 @@
-Repository for code used in Finlay &amp; Ireland et al.
+Repository for code used in Finlay, Ireland et al.
 ==========================================================
 
 # Olfactory neuroblastoma mimics molecular heterogeneity and lineage trajectories of small cell lung cancer
@@ -29,14 +29,14 @@ To be posted upon final acceptance of publication.
 
 Raw data will be provided as CellRanger Count output matrices. 
 
-Raw fastq files will be accessible found on the SRA.
+Raw fastq files will be accessible on the SRA.
   
-# Example Code
-Code to replicate analyses performed in [Finlay & Ireland et al. 2024]
+# Code
+Code to replicate analyses performed in [Finlay, Ireland et al. 2024]
 
 1. Download data from NCBI GEO
-2. See Jupyter Notebooks above for manuscript specific dataset integration methods and analyses, and R script for conversion of anndata objects to Seurat objects.
-3. Please refer to [Scanpy](https://scanpy.readthedocs.io/en/stable/), [scvi-tools](https://docs.scvi-tools.org/en/stable/tutorials/index.html), [Seurat](https://satijalab.org/seurat/articles/get_started.html), [NicheNetR](https://github.com/saeyslab/nichenetr), and [Circos](https://github.com/saeyslab/nichenetr/blob/master/vignettes/seurat_wrapper_circos.md) tutorials for package-specific code that was adapted for datasets in this manuscript. 
+2. See Jupyter Notebooks and R scripts above for manuscript specific dataset integration methods and analyses.
+3. Please refer to [Scanpy](https://scanpy.readthedocs.io/en/stable/), [scvi-tools](https://docs.scvi-tools.org/en/stable/tutorials/index.html), [Otscomics](https://github.com/cantinilab/OT-scOmics), [Circos](https://github.com/saeyslab/nichenetr/blob/master/vignettes/seurat_wrapper_circos.md), [GeomxTools](https://bioconductor.org/packages/devel/workflows/vignettes/GeoMxWorkflows/inst/doc/GeomxTools_RNA-NGS_Analysis.html), and CountCorrect[https://github.com/BayraktarLab/CountCorrect] tutorials for package-specific code that was adapted for datasets in this manuscript. 
 
 # Contact
 Please consult methods described in our manuscript for more details or contact corresponding author for specific requests.
