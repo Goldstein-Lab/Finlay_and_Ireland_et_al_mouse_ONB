@@ -643,6 +643,9 @@ counts_matrix <- edgeR::cpm(d, log = TRUE)
 conditions <- factor(updated_sample_order)
 dim(counts_matrix)
 
+#save counts matrix before filtering on hvgs
+write.csv(counts_matrix, '604sample_bulk_RNA_Seq_atlas.csv')
+
 #Filter counts_matrix to HVGs
 top_genes <- rownames(d2)[order(d2$tagwise.dispersion, decreasing = TRUE)][1:1000]
 counts_matrix <- counts_matrix[top_genes, ]
