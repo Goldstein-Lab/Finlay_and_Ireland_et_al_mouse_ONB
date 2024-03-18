@@ -1,4 +1,5 @@
 Repository for code used in Finlay, Ireland et al.
+[![DOI](https://zenodo.org/badge/770956471.svg)](https://zenodo.org/doi/10.5281/zenodo.10829938)
 ==========================================================
 
 # Olfactory neuroblastoma mimics molecular heterogeneity and lineage trajectories of small cell lung cancer
