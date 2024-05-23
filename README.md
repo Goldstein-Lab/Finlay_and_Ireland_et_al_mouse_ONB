@@ -25,19 +25,19 @@ Diana Bell<sup>4</sup>, Joseph M. Chan<sup>5</sup>, Bradley J. Goldstein<sup>1,6
 The olfactory epithelium undergoes neuronal regeneration from basal stem cells and is susceptible to olfactory neuroblastoma (ONB), a rare tumor of unclear origins. Employing alterations in Rb1/Trp53/Myc (RPM), we establish a genetically-engineered mouse model of high-grade metastatic ONB exhibiting a NEUROD1+ immature neuronal phenotype. We demonstrate that globose basal cells (GBCs) are a permissive cell of origin for ONB, and that ONBs exhibit cell fate heterogeneity that mimics normal GBC developmental trajectories. ASCL1 loss in RPM ONB leads to emergence of non-neuronal histopathologies, including a POU2F3+ microvillar-like state. Similar to small cell lung cancer (SCLC), mouse and human ONB exhibit: mutually exclusive NEUROD1 and POU2F3-like states, an immune-cold tumor microenvironment, intratumoral cell fate heterogeneity comprising neuronal and non-neuronal lineages, and cell fate plasticity—evidenced by barcode-based lineage tracing and single-cell transcriptomics. Collectively, our findings highlight conserved similarities between ONB and neuroendocrine tumors with significant implications for ONB classification and treatment.
 
 ## Manuscript
-Manuscript is available online [here]
+Manuscript is available online [here](https://www.cell.com/cancer-cell/fulltext/S1535-6108(24)00164-8)
 
 # Data
-Data are accessible on GEO, under [Superseries GSE244123]
+Data are accessible on GEO, under Superseries [GSE244123](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE244123)
 
 Raw data are provided as CellRanger Count output matrices. 
 
 Raw fastq files are accessible on the SRA.
   
 # Code
-Code to replicate analyses performed in [Finlay, Ireland et al. *Cancer Cell* 2024]
+Code to replicate analyses performed in [Finlay, Ireland et al. *Cancer Cell* 2024](https://www.cell.com/cancer-cell/fulltext/S1535-6108(24)00164-8)
 
-1. Download data from NCBI GEO
+1. Download data from NCBI GEO [here](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE244123)
 2. See Jupyter Notebooks and R scripts above for manuscript specific dataset integration methods and analyses.
 3. Please refer to [Scanpy](https://scanpy.readthedocs.io/en/stable/), [scvi-tools](https://docs.scvi-tools.org/en/stable/tutorials/index.html), [Single-cell best practices](https://www.sc-best-practices.org/), [Otscomics](https://github.com/cantinilab/OT-scOmics), [Circos](https://github.com/saeyslab/nichenetr/blob/master/vignettes/seurat_wrapper_circos.md), [TCGAbiolinks](https://bioconductor.org/packages/release/bioc/html/TCGAbiolinks.html), [edgeR](https://bioconductor.org/packages/release/bioc/html/edgeR.html), [GeomxTools](https://bioconductor.org/packages/devel/workflows/vignettes/GeoMxWorkflows/inst/doc/GeomxTools_RNA-NGS_Analysis.html), and [CountCorrect](https://github.com/BayraktarLab/CountCorrect) tutorials for package-specific code that was adapted for datasets in this manuscript. 
 
